@@ -12,7 +12,7 @@ function onPageLoad() {
       
     );
     console.log("Token retrieved from URL")
-    window.location.href = "http://127.0.0.1:5000/";
+    window.location.href = "https://fulgul.github.io/Lyricer/";
     }
     access_token = localStorage.getItem("access_token");
     if (access_token != undefined) {
@@ -31,7 +31,7 @@ document.querySelector(".button-auth").addEventListener("click", function () {
     location =
       "https://accounts.spotify.com/authorize?client_id=" +
       client_id +
-      "&redirect_uri=http://127.0.0.1:5000/&scope=user-read-playback-state&response_type=token";
+      "&redirect_uri=https://fulgul.github.io/Lyricer/&scope=user-read-playback-state&response_type=token";
   }
 
 
