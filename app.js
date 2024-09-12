@@ -1,4 +1,4 @@
-let client_id = "7c54b6c759954f4db09959ce5cebe0b0";
+let client_id = "d299aeab3f614f03ba9545c4f0eadacd";
 let api_key = "AIzaSyA0rzoqoGjmjf6zcol28U8FCkgm9FK5_as"
 let lyricsType = "pinyin"
 localStorage.setItem("client_id", client_id);
